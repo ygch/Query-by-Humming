@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+Array2D	mallocarray.h	/^void Array2D(int m,int n,T** &a)$/;"	f
+Asm	asm.cpp	/^void Asm(double *query,int qline,double *sequence,int sline)$/;"	f
+CC	Makefile	/^CC = g++$/;"	m
+INF	asm.cpp	8;"	d	file:
+INF	spring.cpp	14;"	d	file:
+bound	asm.cpp	/^void bound(int qline,int qpos,double r,int *left,int *right)$/;"	f
+dist	asm.cpp	5;"	d	file:
+dist	spring.cpp	11;"	d	file:
+dist2	asm.cpp	6;"	d	file:
+dist2	spring.cpp	12;"	d	file:
+dtw	spring.cpp	/^void dtw(double *query,int qline,double *sequence,int sline)$/;"	f
+error	util.cpp	/^void error(int id)$/;"	f
+free_Array2D	mallocarray.h	/^void free_Array2D(T *p)$/;"	f
+get_sequence	main.cpp	/^double* get_sequence(char *name,int *l)$/;"	f
+main	main.cpp	/^int main(int argc, char **argv)$/;"	f
+min	util.cpp	/^double min(double a,double b,int *index)$/;"	f
+naive_asm	asm.cpp	/^void naive_asm(double *query,int qline,double *sequence,int sline,double r)$/;"	f
+naive_dtw	spring.cpp	/^void naive_dtw(double *query,int qline,double *sequence,int sline)$/;"	f
+print_sequence	main.cpp	/^void print_sequence(double *seq,int line)$/;"	f
+valid_pos	asm.cpp	/^double valid_pos(int left_bound,int right_bound,int x,int y,int kind)$/;"	f

@@ -1,0 +1,16 @@
+#!/bin/sh
+
+echo "warp width is 0"
+./spring ../query_mean_ignore0/$1.txt ../sequence_mean_ignore0/ 0
+echo "warp width is 0.05"
+./spring ../query_mean_ignore0/$1.txt ../sequence_mean_ignore0/ 0.05
+echo "warp width is 0.1"
+./spring ../query_mean_ignore0/$1.txt ../sequence_mean_ignore0/ 0.1
+echo "warp width is 0.15"
+./spring ../query_mean_ignore0/$1.txt ../sequence_mean_ignore0/ 0.15
+echo "warp width is 0.2"
+./spring ../query_mean_ignore0/$1.txt ../sequence_mean_ignore0/ 0.2
+echo "warp width is 0.25"
+./spring ../query_mean_ignore0/$1.txt ../sequence_mean_ignore0/ 0.25
+echo "warp width is 0.3"
+./spring ../query_mean_ignore0/$1.txt ../sequence_mean_ignore0/ 0.3

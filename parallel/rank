@@ -1,0 +1,14 @@
+#!/bin/sh
+#cal the query distance in directory $1 with the directory $2
+
+if [ $# -ne 3 ]; then
+    echo "need 3 parameters!"
+    exit 1
+fi
+
+for file in $(ls $1); do
+    echo "file is $file"
+    ./spring $1$file $2 $3
+done
+
+

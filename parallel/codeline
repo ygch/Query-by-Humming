@@ -1,0 +1,8 @@
+#! /bin/sh
+#get the total code line of Feature Extraction
+
+printf "total line is "
+wc -l *.h  *.cpp *.cu |cut -c1-5 |tail -1 |tr -d " "
+printf "code line is "
+wc -l   *.cpp *.cu|cut -c1-5 |tail -1 |tr -d " "
+

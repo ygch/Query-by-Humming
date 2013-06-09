@@ -1,0 +1,14 @@
+#!/bin/sh
+#rank a file using different normalization methods.
+
+if [ $# -ne 2 ]; then
+    echo "need 2 parameters!"
+    exit 1
+fi
+
+./spring ../query_max/$1.txt ../sequence_max/ $2
+./spring ../query_mean_ignore0/$1.txt ../sequence_mean_ignore0/ $2
+./spring ../query_mean/$1.txt ../sequence_mean/  $2
+./spring ../query_std_mean_ignore0/$1.txt ../sequence_std_mean_ignore0/ $2
+./spring ../query_std_mean/$1.txt ../sequence_std_mean/ $2
+./spring ../query_log_mean/$1.txt ../sequence_log_mean/ $2
