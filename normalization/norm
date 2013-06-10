@@ -1,0 +1,9 @@
+#!/bin/sh
+
+./normalization ../mysound/$1.txt ../query_max/ 1 1 1
+./normalization ../mysound/$1.txt ../query_mean_ignore0/ 2 1 1
+./normalization ../mysound/$1.txt ../query_mean/ 2 0 1
+./normalization ../mysound/$1.txt ../query_std_mean_ignore0/ 3 1 1
+./normalization ../mysound/$1.txt ../query_std_mean/ 3 0 1
+./normalization ../mysound/$1.txt ../query_log_mean/ 4 1 1
+
