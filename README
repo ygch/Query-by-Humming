@@ -2,3 +2,12 @@ Query-by-Humming
 ================
 
 This is a project to achieve a query by humming system with the help of SPRING algorithm. We also accelerate the system through GPU.
+
+It includes: 
+    normalization/: this directory has the program which will normalize the sequence.
+    serial/: this diretory realizes the serial query by humming under SPRING algorithm.
+    parallel/: this directory is the parallel version of SPRING algorighm.
+    mysound.tar.gz: this archive file has the 100 humming clips.
+    query.tar.gz: this archive file has the melody of humming clips.
+    sequence.tar.gz: this archive file has the melody of 400 polyphonic music clips.
+    wavclip.part*.tar.gz: these archive files have the 400 polyphonic music clips.
